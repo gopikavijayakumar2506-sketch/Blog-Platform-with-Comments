@@ -1,0 +1,12 @@
+use blogdb
+
+db.posts.insertMany([
+{
+title:"First Blog",
+content:"Welcome to my blog platform"
+},
+{
+title:"Web Development",
+content:"Learning Node.js and MongoDB"
+}
+])
